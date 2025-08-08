@@ -106,9 +106,16 @@ export const sendOrderConfirmationEmail = async (orderData) => {
         <div style="max-width: 500px; margin: 20px auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           
           <!-- Header -->
-          <div style="background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%); color: white; text-align: center; padding: 30px 20px;">
-            <h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600;">Eleve</h1>
-            <p style="margin: 0; font-size: 16px; opacity: 0.9;">Order Confirmed!</p>
+          <div style="background: linear-gradient(135deg, #63a967, #4f8752); padding: 40px 30px; text-align: center; position: relative; overflow: hidden;">
+              <div style="position: absolute; top: -50px; right: -50px; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+              <div style="position: absolute; bottom: -30px; left: -30px; width: 60px; height: 60px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+              <div style="position: relative; z-index: 2;">
+                  <div style="display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: rgba(255,255,255,0.2); border-radius: 16px; margin-bottom: 16px;">
+                      <span style="font-size: 24px;">🌿</span>
+                  </div>
+                  <h1 style="color: white; margin: 0; font-size: 32px; font-weight: 700; margin-bottom: 8px;">Eleve</h1>
+                  <p style="color: rgba(255,255,255,0.9); margin: 0; font-size: 18px; font-weight: 500;">Order Confirmed!</p>
+              </div>
           </div>
 
           <!-- Content -->
@@ -180,8 +187,8 @@ export const sendOrderConfirmationEmail = async (orderData) => {
           </div>
 
           <!-- Footer -->
-          <div style="background: #111827; color: white; text-align: center; padding: 20px;">
-            <p style="margin: 0; color: #9ca3af; font-size: 12px;">Eleve - World's Finest Moringa & Tea Tree Oil Soaps</p>
+          <div style="background: #111827; color: white; text-align: center; padding: 32px;">
+            <p style="margin: 0; color: #9ca3af; font-size: 12px;">Eleve - Premium Natural Moringa & Tea Tree Oil Soaps</p>
           </div>
 
         </div>

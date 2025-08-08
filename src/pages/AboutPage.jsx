@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Heart, Award, Users, Sparkles, Shield, Leaf, Star, CheckCircle } from 'lucide-react';
 import Breadcrumb from '../components/Breadcrumb';
+import { Helmet } from 'react-helmet-async';
 
 const AboutPage = () => {
   const breadcrumbItems = [
@@ -40,6 +41,14 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        <title>Eleve - Premium Natural Soaps | Moringa & Tea Tree Oil Skincare</title>
+        <meta
+          name="description"
+          content="Discover Eleve's premium natural soap collection. Transform your skin with our moringa and tea tree oil soaps. Free delivery across Pakistan."
+        />
+      </Helmet>
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <Breadcrumb customItems={breadcrumbItems} />
       </div>
@@ -123,7 +132,7 @@ const AboutPage = () => {
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The principles that guide everything we do at MoringaCare
+              The principles that guide everything we do at Eleve
             </p>
           </motion.div>
 
@@ -189,7 +198,7 @@ const AboutPage = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Choose MoringaCare?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Choose Eleve?</h2>
               <div className="space-y-6">
                 {[
                   "Handcrafted with pure moringa and tea tree oil",

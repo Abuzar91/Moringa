@@ -293,7 +293,7 @@ const ShippingInfoPage = () => {
               Questions About Shipping?
             </h2>
             <p className="text-lg sm:text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Your Eleve soaps arrive at your doorstep
+              Get in touch with our shipping team for any delivery questions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

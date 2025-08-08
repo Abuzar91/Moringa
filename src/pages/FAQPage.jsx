@@ -25,7 +25,6 @@ const FAQPage = () => {
   const faqs = [
     {
       category: 'products',
-      question: 'What makes MoringaCare soaps different from regular soaps?',
       question: 'What makes Eleve soaps different from regular soaps?',
       answer: 'Our soaps are handcrafted with 100% natural ingredients, primarily moringa leaves and tea tree oil. Unlike commercial soaps that contain harsh chemicals, our soaps are gentle, moisturizing, and provide therapeutic benefits for your skin.'
     },

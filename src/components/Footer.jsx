@@ -104,9 +104,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin size={16} className="text-primary-600 mt-1" />
                 <span className="text-gray-600 text-sm">
-                  123 Beauty Street<br />
+                  info@eleve.pk
                   Mardan, Pakistan
-                </span>
               </div>
             </div>
           </div>
@@ -117,7 +116,7 @@ const Footer = () => {
             © 2024 Eleve. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm flex items-center mt-2 md:mt-0">
-            Made with <Heart size={16} className="text-primary-600 mx-1" /> for moringa & tea tree oil enthusiasts
+            Made with <Heart size={16} className="text-primary-600 mx-1" /> for natural skincare enthusiasts
           </p>
         </div>
       </div>

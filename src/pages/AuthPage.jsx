@@ -127,7 +127,7 @@ const AuthPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex justify-center mb-6"
             >
-              <Logo size="xl" />
+              <Logo size="lg" />
             </motion.div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
               {isLogin ? 'Welcome Back' : 'Create Account'}

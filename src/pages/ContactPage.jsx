@@ -106,7 +106,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@sitara.pk", "support@sitara.pk", "orders@sitara.pk"],
+      details: ["info@eleve.pk", "support@eleve.pk", "orders@eleve.pk"],
       color: "bg-teal-100 text-teal-600"
     },
     {

@@ -154,7 +154,7 @@ const OrderSuccessPage = () => {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="mailto:info@creamglow.pk"
+                href="mailto:info@eleve.pk"
                 className="text-blue-600 hover:text-blue-700 flex items-center space-x-2"
               >
                 <Mail size={20} />

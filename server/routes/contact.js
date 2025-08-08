@@ -140,8 +140,7 @@ router.post('/', contactLimiter, contactValidation, async (req, res) => {
                       <div style="display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; background: #63a967; border-radius: 12px; margin-bottom: 12px;">
                           <span style="font-size: 20px;">🌿</span>
                       </div>
-                      <h3 style="margin: 0; font-size: 20px; font-weight: 600;">MoringaCare</h3>
-                     <h3 style="margin: 0; font-size: 20px; font-weight: 600;">Eleve</h3>
+                      <h3 style="margin: 0; font-size: 20px; font-weight: 600;">Eleve</h3>
                   </div>
                   <p style="margin: 0 0 8px 0; font-size: 16px; font-weight: 500;">Contact Form Notification</p>
                   <p style="margin: 0; color: #9ca3af; font-size: 14px;">Premium moringa & tea tree oil soaps for natural care</p>

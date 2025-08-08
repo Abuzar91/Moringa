@@ -61,21 +61,21 @@ const HomePage = () => {
       name: "Ayesha Khan",
       location: "Karachi",
       rating: 5,
-      comment: "AM Botonics moringa soap completely transformed my skin! The quality is unmatched - best moringa soap I've ever used.",
+      comment: "Eleve moringa soap completely transformed my skin! The quality is unmatched - best moringa soap I've ever used.",
       image: "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "Fatima Ali",
       location: "Lahore", 
       rating: 5,
-      comment: "AM Botonics has the best moringa and tea tree oil soaps! My skin feels incredibly soft and healthy. Highly recommend!",
+      comment: "Eleve has the best moringa and tea tree oil soaps! My skin feels incredibly soft and healthy. Highly recommend!",
       image: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "Sara Ahmed",
       location: "Islamabad",
       rating: 5,
-      comment: "AM Botonics tea tree oil soap is amazing for acne-prone skin. The moringa benefits are incredible - my skin glows now!",
+      comment: "Eleve tea tree oil soap is amazing for acne-prone skin. The moringa benefits are incredible - my skin glows now!",
       image: "https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=150"
     }
   ];
@@ -299,10 +299,10 @@ const HomePage = () => {
               className="text-center mb-16"
             >
               <h2 className="text-4xl md:text-5xl font-bold font-display text-gray-900 mb-4">
-                Why Choose AM Botonics?
+                Why Choose Eleve?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                We're the world's leading moringa soap experts, committed to providing premium natural skincare that transforms your skin
+                We're committed to providing premium natural skincare that transforms your skin with the finest moringa and tea tree oil soaps
               </p>
             </motion.div>
 
@@ -342,7 +342,7 @@ const HomePage = () => {
                 What Our Customers Say
               </h2>
               <p className="text-xl text-gray-600">
-                Real stories from real customers who love AM Botonics
+                Real stories from real customers who love Eleve
               </p>
             </motion.div>
 

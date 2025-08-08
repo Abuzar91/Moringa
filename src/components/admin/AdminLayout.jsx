@@ -51,7 +51,7 @@ const AdminLayout = ({ children }) => {
         
         <div className="flex items-center justify-between h-20 px-6 bg-gradient-to-r from-primary-500 to-primary-600">
           <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <Logo size="md" variant='white' />
+            <Logo size="md" />
           </Link>
           <button
             onClick={() => setSidebarOpen(false)}

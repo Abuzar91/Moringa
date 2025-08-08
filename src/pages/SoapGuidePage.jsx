@@ -146,7 +146,7 @@ const SoapGuidePage = () => {
                 Natural Soap Guide
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                Everything you need to know about choosing and using Eleve natural soaps for healthy skin
+                Everything you need to know about choosing and using our natural soaps for healthy skin
               </p>
             </motion.div>
           </div>
