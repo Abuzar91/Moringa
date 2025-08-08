@@ -12,7 +12,7 @@ const Footer = () => {
               <Logo size="md" variant="default" />
             </div>
             <p className="text-gray-600 text-sm">
-              World's finest moringa and tea tree oil soaps. Enhance your beauty with AM Botonics' premium handcrafted natural soap collection.
+              World's finest moringa and tea tree oil soaps. Enhance your beauty with Eleve's premium handcrafted natural soap collection.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-500 hover:text-primary-600 transition-colors">
@@ -99,7 +99,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-primary-600" />
                 <span className="text-gray-600 text-sm">info@moringacare.pk</span>
-                <span className="text-gray-600 text-sm">info@ambotonics.pk</span>
+                <span className="text-gray-600 text-sm">info@eleve.pk</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={16} className="text-primary-600 mt-1" />
@@ -114,7 +114,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © 2024 AM Botonics. All rights reserved.
+            © 2024 Eleve. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm flex items-center mt-2 md:mt-0">
             Made with <Heart size={16} className="text-primary-600 mx-1" /> for moringa & tea tree oil enthusiasts

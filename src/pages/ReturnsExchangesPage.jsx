@@ -76,7 +76,7 @@ const ReturnsExchangesPage = () => {
                 Returns & Exchanges
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                Your satisfaction is our priority. Easy returns and exchanges for MoringaCare products
+                Your satisfaction is our priority. Easy returns and exchanges for Eleve products
               </p>
             </motion.div>
           </div>

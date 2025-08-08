@@ -16,7 +16,7 @@ const logger = winston.createLogger({
     winston.format.errors({ stack: true }),
     winston.format.json()
   ),
-  defaultMeta: { service: 'AM-Botonics' },
+  defaultMeta: { service: 'Eleve' },
   transports: [
     new winston.transports.File({ 
       filename: path.join(logsDir, 'error.log'), 

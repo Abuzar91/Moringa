@@ -79,7 +79,7 @@ router.post('/', contactLimiter, contactValidation, async (req, res) => {
                           <span style="font-size: 24px;">🌿</span>
                       </div>
                       <h1 style="color: white; margin: 0; font-size: 32px; font-weight: 700; margin-bottom: 8px;">New Contact Message!</h1>
-                      <p style="color: rgba(255,255,255,0.9); margin: 0; font-size: 18px; font-weight: 500;">From AM Botonics Website</p>
+                      <p style="color: rgba(255,255,255,0.9); margin: 0; font-size: 18px; font-weight: 500;">From Eleve Website</p>
                   </div>
               </div>
 
@@ -141,6 +141,7 @@ router.post('/', contactLimiter, contactValidation, async (req, res) => {
                           <span style="font-size: 20px;">🌿</span>
                       </div>
                       <h3 style="margin: 0; font-size: 20px; font-weight: 600;">MoringaCare</h3>
+                     <h3 style="margin: 0; font-size: 20px; font-weight: 600;">Eleve</h3>
                   </div>
                   <p style="margin: 0 0 8px 0; font-size: 16px; font-weight: 500;">Contact Form Notification</p>
                   <p style="margin: 0; color: #9ca3af; font-size: 14px;">Premium moringa & tea tree oil soaps for natural care</p>
@@ -152,7 +153,7 @@ router.post('/', contactLimiter, contactValidation, async (req, res) => {
 
     // Send email to admin
     await transporter.sendMail({
-      from: `"MoringaCare Contact" <${process.env.EMAIL_USER}>`,
+      from: `"Eleve Contact" <${process.env.EMAIL_USER}>`,
       to: process.env.ADMIN_EMAIL || process.env.EMAIL_USER,
       subject: `New Contact Form: ${subject}`,
       html: adminEmailTemplate,

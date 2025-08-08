@@ -87,14 +87,14 @@ const ProductsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Best Moringa Soap Pakistan | AM Botonics Premium Tea Tree Oil Soaps | Natural Skincare</title>
+        <title>Best Moringa Soap Pakistan | Eleve Premium Tea Tree Oil Soaps | Natural Skincare</title>
         <meta
           name="description"
-          content="Shop AM Botonics - Pakistan's #1 moringa soap brand. Premium tea tree oil soaps, organic moringa products, and natural skincare. Best moringa soap with free delivery across Pakistan."
+          content="Shop Eleve - Pakistan's #1 moringa soap brand. Premium tea tree oil soaps, organic moringa products, and natural skincare. Best moringa soap with free delivery across Pakistan."
         />
         <meta
           name="keywords"
-          content="AM Botonics, best moringa soap Pakistan, moringa soap online, tea tree oil soap, organic moringa products, natural soap Pakistan, buy moringa soap, moringa leaves soap, premium skincare Pakistan, handmade moringa soap, moringa soap benefits, tea tree soap benefits"
+          content="Eleve, best moringa soap Pakistan, moringa soap online, tea tree oil soap, organic moringa products, natural soap Pakistan, buy moringa soap, moringa leaves soap, premium skincare Pakistan, handmade moringa soap, moringa soap benefits, tea tree soap benefits"
         />
       </Helmet>
       <div className="min-h-screen bg-gray-50 py-8">
@@ -105,7 +105,7 @@ const ProductsPage = () => {
               Premium Moringa & Tea Tree Oil Soaps
             </h1>
             <p className="text-xl text-gray-600">
-              Discover AM Botonics' complete range of world-class moringa and tea tree oil soap collection
+              Discover Eleve's complete range of world-class moringa and tea tree oil soap collection
             </p>
           </div>
 

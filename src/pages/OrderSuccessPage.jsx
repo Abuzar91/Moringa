@@ -35,7 +35,7 @@ const OrderSuccessPage = () => {
             Order Placed Successfully!
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-           Thank you {customerName ? `${customerName}` : ''} for choosing AM Botonics. Your premium moringa soap order has been received and is being processed.
+           Thank you {customerName ? `${customerName}` : ''} for choosing Eleve. Your premium moringa soap order has been received and is being processed.
           </p>
 
           {orderNumber && (

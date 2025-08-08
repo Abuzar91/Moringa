@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const WhatsAppButton = () => {
   const whatsappNumber = "+923249090438"; 
-  const message = "Hi! I'm interested in AM Botonics moringa and tea tree oil soaps. Can you help me with the best products for my skin?";
+  const message = "Hi! I'm interested in Eleve moringa and tea tree oil soaps. Can you help me with the best products for my skin?";
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;

@@ -2,7 +2,7 @@ import promClient from 'prom-client';
 const register = new promClient.Registry();
 
 register.setDefaultLabels({
-  app: 'AM-Botonics',
+  app: 'Eleve',
 });
 
 promClient.collectDefaultMetrics({ register });

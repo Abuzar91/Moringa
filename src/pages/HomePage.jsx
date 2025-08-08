@@ -90,9 +90,9 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>AM Botonics - World's Best Moringa & Tea Tree Oil Soaps | Premium Natural Skincare Pakistan</title>
-        <meta name="description" content="AM Botonics offers the world's finest moringa and tea tree oil soaps. Premium natural skincare handcrafted with pure organic ingredients. #1 moringa soap brand in Pakistan with free delivery nationwide." />
-        <meta name="keywords" content="AM Botonics, moringa soap Pakistan, tea tree oil soap, best moringa soap, natural soap Pakistan, organic moringa products, handmade soap, premium skincare, moringa leaves soap, botanical soap, natural skincare Pakistan, buy moringa soap online, moringa soap benefits, tea tree soap benefits" />
+        <title>Eleve - World's Best Moringa & Tea Tree Oil Soaps | Premium Natural Skincare Pakistan</title>
+        <meta name="description" content="Eleve offers the world's finest moringa and tea tree oil soaps. Premium natural skincare handcrafted with pure organic ingredients. #1 moringa soap brand in Pakistan with free delivery nationwide." />
+        <meta name="keywords" content="Eleve, moringa soap Pakistan, tea tree oil soap, best moringa soap, natural soap Pakistan, organic moringa products, handmade soap, premium skincare, moringa leaves soap, botanical soap, natural skincare Pakistan, buy moringa soap online, moringa soap benefits, tea tree soap benefits" />
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-b from-primary-50 to-white">
@@ -129,7 +129,7 @@ const HomePage = () => {
                 </h1>
                 
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl">
-                  Experience the power of nature with AM Botonics' premium moringa and tea tree oil soaps. 
+                  Experience the power of nature with Eleve's premium moringa and tea tree oil soaps. 
                   Handcrafted with pure organic ingredients for radiant, healthy skin that glows naturally.
                 </p>
                 
@@ -234,7 +234,7 @@ const HomePage = () => {
                 Premium Moringa Collection
               </h2>
               <p className="text-xl text-gray-600">
-                Discover our award-winning moringa and tea tree oil soap collection
+                Discover Eleve's award-winning moringa and tea tree oil soap collection
               </p>
             </motion.div>
 
@@ -409,10 +409,10 @@ const HomePage = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold font-display text-white mb-4">
-                Ready to Experience AM Botonics?
+                Ready to Experience Eleve?
               </h2>
               <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-                Join thousands of satisfied customers who have discovered the world's finest moringa and tea tree oil soaps
+                Join thousands of satisfied customers who have discovered Eleve's world's finest moringa and tea tree oil soaps
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

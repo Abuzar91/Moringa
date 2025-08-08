@@ -146,7 +146,7 @@ const SoapGuidePage = () => {
                 Natural Soap Guide
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                Everything you need to know about choosing and using MoringaCare natural soaps for healthy skin
+                Everything you need to know about choosing and using Eleve natural soaps for healthy skin
               </p>
             </motion.div>
           </div>
@@ -189,7 +189,7 @@ const SoapGuidePage = () => {
                   Choose the Right Soap for Your Skin Type
                 </h2>
                 <p className="text-lg text-gray-600">
-                  Understanding your skin type helps you select the perfect MoringaCare soap
+                  Understanding your skin type helps you select the perfect Eleve soap
                 </p>
               </div>
 
@@ -247,7 +247,7 @@ const SoapGuidePage = () => {
                   Natural Ingredients & Their Benefits
                 </h2>
                 <p className="text-lg text-gray-600">
-                  Discover the power of nature in every MoringaCare soap
+                  Discover the power of nature in every Eleve soap
                 </p>
               </div>
 
@@ -289,7 +289,7 @@ const SoapGuidePage = () => {
                   How to Use Natural Soaps
                 </h2>
                 <p className="text-lg text-gray-600">
-                  Get the most out of your MoringaCare soaps with these expert tips
+                  Get the most out of your Eleve soaps with these expert tips
                 </p>
               </div>
 

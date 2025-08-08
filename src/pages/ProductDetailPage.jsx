@@ -129,30 +129,30 @@ const ProductDetailPage = () => {
       <Helmet>
         <title>
           {product?.name
-            ? `${product.name} | AM Botonics Premium Moringa Soaps`
-            : "Premium Moringa Soap Details | AM Botonics"}
+            ? `${product.name} | Eleve Premium Moringa Soaps`
+            : "Premium Moringa Soap Details | Eleve"}
         </title>
         <meta
           name="description"
           content={
             product?.description ||
-            "Premium moringa soap from AM Botonics. Pure organic moringa leaves and tea tree oil for healthy, radiant skin. World's finest natural skincare."
+            "Premium moringa soap from Eleve. Pure organic moringa leaves and tea tree oil for healthy, radiant skin. World's finest natural skincare."
           }
         />
         <meta
           name="keywords"
-          content={`AM Botonics, ${product?.name || "moringa soap"}, ${
+          content={`Eleve, ${product?.name || "moringa soap"}, ${
             product?.category || "soap"
           }, premium moringa soap, organic moringa, tea tree oil soap, natural skincare Pakistan, best moringa soap`}
         />
         <meta
           property="og:title"
-          content={product?.name ? `${product.name} - AM Botonics` : "Premium Moringa Soap - AM Botonics"}
+          content={product?.name ? `${product.name} - Eleve` : "Premium Moringa Soap - Eleve"}
         />
         <meta
           property="og:description"
           content={
-            product?.description || "Premium moringa soap from AM Botonics - World's finest natural skincare"
+            product?.description || "Premium moringa soap from Eleve - World's finest natural skincare"
           }
         />
         <meta property="og:image" content={product?.images?.[0]?.url || ""} />

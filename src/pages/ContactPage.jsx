@@ -143,7 +143,7 @@ const ContactPage = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                We'd love to hear from you! Get in touch with AM Botonics team for expert moringa soap advice, 
+                We'd love to hear from you! Get in touch with Eleve team for expert moringa soap advice, 
                 product recommendations, or any questions about our premium natural skincare.
               </p>
             </div>
@@ -350,7 +350,7 @@ const ContactPage = () => {
               Need Immediate Assistance?
             </h2>
             <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-              Our AM Botonics experts are ready to help you choose the perfect moringa soap for your skin type
+              Our Eleve experts are ready to help you choose the perfect moringa soap for your skin type
             </p>
             <button
               onClick={sendToWhatsApp}

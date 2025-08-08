@@ -60,7 +60,7 @@ const PrivacyPolicyPage = () => {
   const contactInfo = [
     {
       method: 'Email',
-      value: 'privacy@moringacare.pk',
+      value: 'privacy@eleve.pk',
       icon: Mail,
       description: 'For privacy-related inquiries'
     },
@@ -116,7 +116,7 @@ const PrivacyPolicyPage = () => {
           >
             <h2 className="text-xl font-bold text-gray-900 mb-4">Our Commitment to Your Privacy</h2>
             <p className="text-gray-700 leading-relaxed">
-              At MoringaCare, we are committed to protecting your privacy and ensuring the security of your personal information. 
+              At Eleve, we are committed to protecting your privacy and ensuring the security of your personal information. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website 
               or make a purchase from us. By using our services, you agree to the collection and use of information in accordance 
               with this policy.

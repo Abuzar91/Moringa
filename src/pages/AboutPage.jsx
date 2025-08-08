@@ -55,7 +55,7 @@ const AboutPage = () => {
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
                 About
                 <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                  {" "}MoringaCare
+                  {" "}Eleve
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
@@ -78,7 +78,7 @@ const AboutPage = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  MoringaCare was born from a simple belief: everyone deserves access to high-quality, 
+                  Eleve was born from a simple belief: everyone deserves access to high-quality, 
                   natural soap that enhances their skin's health. Founded in 2023 in Pakistan, 
                   we started with a mission to create premium natural soaps using pure moringa and tea tree oil.
                 </p>
@@ -88,7 +88,7 @@ const AboutPage = () => {
                   we decided to handcraft soaps that combine these powerful botanicals for optimal skin care.
                 </p>
                 <p>
-                  Today, MoringaCare is trusted by thousands of customers across Pakistan who have experienced 
+                  Today, Eleve is trusted by thousands of customers across Pakistan who have experienced 
                   the transformative power of our carefully handcrafted natural soaps and organic ingredients.
                 </p>
               </div>
@@ -243,7 +243,7 @@ const AboutPage = () => {
               Ready to Start Your Natural Soap Journey?
             </h2>
             <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied customers who trust MoringaCare for their natural soap needs
+              Join thousands of satisfied customers who trust Eleve for their natural soap needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -133,7 +133,7 @@ const AuthPage = () => {
               {isLogin ? 'Welcome Back' : 'Create Account'}
             </h2>
             <p className="text-gray-600">
-             {isLogin ? 'Sign in to your account' : 'Join MoringaCare for exclusive offers'}
+             {isLogin ? 'Sign in to your account' : 'Join Eleve for exclusive offers'}
             </p>
           </div>
 

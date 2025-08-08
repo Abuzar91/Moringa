@@ -107,7 +107,7 @@ export const sendOrderConfirmationEmail = async (orderData) => {
           
           <!-- Header -->
           <div style="background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%); color: white; text-align: center; padding: 30px 20px;">
-            <h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600;">AM Botonics</h1>
+            <h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600;">Eleve</h1>
             <p style="margin: 0; font-size: 16px; opacity: 0.9;">Order Confirmed!</p>
           </div>
 
@@ -181,7 +181,7 @@ export const sendOrderConfirmationEmail = async (orderData) => {
 
           <!-- Footer -->
           <div style="background: #111827; color: white; text-align: center; padding: 20px;">
-            <p style="margin: 0; color: #9ca3af; font-size: 12px;">AM Botonics - World's Finest Moringa & Tea Tree Oil Soaps</p>
+            <p style="margin: 0; color: #9ca3af; font-size: 12px;">Eleve - World's Finest Moringa & Tea Tree Oil Soaps</p>
           </div>
 
         </div>
@@ -190,9 +190,9 @@ export const sendOrderConfirmationEmail = async (orderData) => {
     `;
 
     const mailOptions = {
-      from: `"AM Botonics" <${process.env.EMAIL_USER}>`,
+      from: `"Eleve" <${process.env.EMAIL_USER}>`,
       to: customerInfo.email,
-      subject: `Order Confirmation #${orderNumber} - AM Botonics`,
+      subject: `Order Confirmation #${orderNumber} - Eleve`,
       html: emailTemplate,
     };
 

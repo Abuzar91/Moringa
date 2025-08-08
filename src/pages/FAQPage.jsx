@@ -26,6 +26,7 @@ const FAQPage = () => {
     {
       category: 'products',
       question: 'What makes MoringaCare soaps different from regular soaps?',
+      question: 'What makes Eleve soaps different from regular soaps?',
       answer: 'Our soaps are handcrafted with 100% natural ingredients, primarily moringa leaves and tea tree oil. Unlike commercial soaps that contain harsh chemicals, our soaps are gentle, moisturizing, and provide therapeutic benefits for your skin.'
     },
     {
@@ -41,7 +42,7 @@ const FAQPage = () => {
     {
       category: 'ingredients',
       question: 'Are your products tested on animals?',
-      answer: 'Absolutely not! MoringaCare is completely cruelty-free. We never test our products on animals and only use ethically sourced, natural ingredients.'
+      answer: 'Absolutely not! Eleve is completely cruelty-free. We never test our products on animals and only use ethically sourced, natural ingredients.'
     },
     {
       category: 'orders',
@@ -133,7 +134,7 @@ const FAQPage = () => {
                 Frequently Asked Questions
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                Find answers to common questions about MoringaCare natural soaps, shipping, and more
+                Find answers to common questions about Eleve natural soaps, shipping, and more
               </p>
             </motion.div>
           </div>

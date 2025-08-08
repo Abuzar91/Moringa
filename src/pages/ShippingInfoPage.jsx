@@ -85,7 +85,7 @@ const ShippingInfoPage = () => {
                 Shipping Information
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                Fast, reliable, and free shipping across Pakistan for all MoringaCare natural soap orders
+                Fast, reliable, and free shipping across Pakistan for all Eleve natural soap orders
               </p>
             </motion.div>
           </div>
@@ -293,7 +293,7 @@ const ShippingInfoPage = () => {
               Questions About Shipping?
             </h2>
             <p className="text-lg sm:text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Our customer support team is here to help with any shipping inquiries
+              Your Eleve soaps arrive at your doorstep
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
