@@ -1,0 +1,90 @@
+@@ .. @@
+ networks:
+-  moringa-network:
++  eleve-network:
+     driver: bridge
+   monitoring:
+@@ .. @@
+   mongodb:
+     image: mongo:6.0
+-    container_name: moringa_mongodb
++    container_name: eleve_mongodb
+     restart: unless-stopped
+@@ .. @@
+     networks:
+-      - moringa-network
++      - eleve-network
+     ports:
+@@ .. @@
+   backend:
+     build: 
+       context: ./server
+       dockerfile: Dockerfile
+-    container_name: moringa_backend
++    container_name: eleve_backend
+     restart: unless-stopped
+@@ .. @@
+     networks:
+-      - moringa-network
++      - eleve-network
+       - monitoring
+@@ .. @@
+   frontend:
+     build: 
+       context: .
+       dockerfile: Dockerfile
+-    container_name: moringa_frontend
++    container_name: eleve_frontend
+     restart: unless-stopped
+@@ .. @@
+     networks:
+-      - moringa-network
++      - eleve-network
+     ports:
+@@ .. @@
+   prometheus:
+     image: prom/prometheus:latest
+-    container_name: moringa_prometheus
++    container_name: eleve_prometheus
+     restart: unless-stopped
+@@ .. @@
+   grafana:
+     image: grafana/grafana:latest
+-    container_name: moringa_grafana
++    container_name: eleve_grafana
+     restart: unless-stopped
+@@ .. @@
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+-    container_name: moringa_elasticsearch
++    container_name: eleve_elasticsearch
+    restart: unless-stopped
+@@ .. @@
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.11.0
+-    container_name: moringa_logstash
++    container_name: eleve_logstash
+    restart: unless-stopped
+@@ .. @@
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.0
+-    container_name: moringa_kibana
++    container_name: eleve_kibana
+   restart: unless-stopped
+@@ .. @@
+  filebeat:
+   image: docker.elastic.co/beats/filebeat:8.11.0
+-    container_name: moringa_filebeat
++    container_name: eleve_filebeat
+   restart: unless-stopped
+@@ .. @@
+  nginx:
+   image: nginx:alpine
+-    container_name: moringa_nginx
++    container_name: eleve_nginx
+  restart: unless-stopped
+@@ .. @@
+    networks:
+-      - moringa-network
++      - eleve-network
+      - monitoring

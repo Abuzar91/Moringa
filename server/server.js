@@ -55,7 +55,7 @@ app.use('/api/contact', contactRoutes);
 
 app.get('/api/health', (req, res) => {
   logger.info('Health check requested');
-  res.json({ message: 'Server is running properly' });
+  res.json({ message: 'Eleve server is running properly' });
 });
 
 // Error handling middleware
@@ -89,7 +89,7 @@ mongoose.connect(process.env.MONGODB_URI)
 .then(() => {
   logger.info('Connected to MongoDB');
   app.listen(PORT, () => {
-    logger.info(`Moringa API server running on port ${PORT}`);
+    logger.info(`Eleve API server running on port ${PORT}`);
   });
 })
 .catch((error) => {

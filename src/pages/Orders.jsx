@@ -156,8 +156,7 @@ const Orders = () => {
             Track Your Orders
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Enter your order number to track your shipment and see the current
-            status of your order.
+            Enter your order number to track your Eleve shipment and see the current status of your order.
           </p>
         </div>
 

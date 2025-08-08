@@ -165,7 +165,7 @@ const OrderNotification = () => {
               <div className="mt-3 pt-3 border-t border-gray-100">
                 <div className="flex items-center justify-between text-xs text-gray-500">
                   <span>✓ Verified Purchase</span>
-                  <span className="text-primary-600 font-medium">🌿 Natural Soap</span>
+                  <span className="text-primary-600 font-medium">🌿 Eleve Soap</span>
                 </div>
               </div>
             </div>

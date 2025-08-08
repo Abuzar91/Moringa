@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # =============================================================================
-# Complete Deployment Script for Moringa Application with Monitoring Stack
+# Complete Deployment Script for Eleve Application with Monitoring Stack
 # Author: Automated Deployment Script
-# Description: Deploys application with Prometheus, Grafana, and ELK Stack
+# Description: Deploys Eleve application with Prometheus, Grafana, and ELK Stack
 # =============================================================================
 
 set -e  # Exit on any error
@@ -17,8 +17,8 @@ PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
 # Configuration
-REPO_URL="https://github.com/abuzarkhan1/Moringa.git"
-PROJECT_NAME="moringa"
+REPO_URL="https://github.com/abuzarkhan1/Eleve.git"
+PROJECT_NAME="eleve"
 PUBLIC_IP="3.85.36.223"
 DOMAIN="${PUBLIC_IP}"
 
@@ -332,7 +332,7 @@ global:
   evaluation_interval: 15s
 
 scrape_configs:
-  - job_name: 'moringa-backend'
+  - job_name: 'eleve-backend'
     static_configs:
       - targets: ['backend:5000']
     metrics_path: '/metrics'
@@ -391,8 +391,8 @@ create_application_dashboard() {
 {
   "dashboard": {
     "id": null,
-    "title": "Moringa Application Dashboard",
-    "tags": ["moringa", "nodejs", "mongodb"],
+    "title": "Eleve Application Dashboard",
+    "tags": ["eleve", "nodejs", "mongodb"],
     "style": "dark",
     "timezone": "browser",
     "panels": [
@@ -540,7 +540,7 @@ filter {
 output {
   elasticsearch {
     hosts => ["elasticsearch:9200"]
-    index => "moringa-logs-%{+YYYY.MM.dd}"
+    index => "eleve-logs-%{+YYYY.MM.dd}"
   }
 }
 EOF
@@ -720,8 +720,8 @@ create_log_files() {
     print_status "Creating log files..."
     
     # Add initial log entries
-    echo '{"timestamp":"'$(date '+%Y-%m-%d %H:%M:%S')'","level":"info","message":"Deployment started","service":"Moringa"}' >> logs/combined.log
-    echo '{"timestamp":"'$(date '+%Y-%m-%d %H:%M:%S')'","level":"info","message":"Server logs initialized","service":"Moringa"}' >> server/logs/combined.log
+    echo '{"timestamp":"'$(date '+%Y-%m-%d %H:%M:%S')'","level":"info","message":"Deployment started","service":"Eleve"}' >> logs/combined.log
+    echo '{"timestamp":"'$(date '+%Y-%m-%d %H:%M:%S')'","level":"info","message":"Server logs initialized","service":"Eleve"}' >> server/logs/combined.log
 }
 
 # Function to check if Dockerfiles exist
@@ -811,12 +811,12 @@ configure_kibana() {
     sleep 90  # Wait for Elasticsearch to be ready
     
     # Create index pattern
-    curl -X POST "http://localhost:5601/api/saved_objects/index-pattern/moringa-logs-*" \
+    curl -X POST "http://localhost:5601/api/saved_objects/index-pattern/eleve-logs-*" \
         -H "kbn-xsrf: true" \
         -H "Content-Type: application/json" \
         -d '{
             "attributes": {
-                "title": "moringa-logs-*",
+                "title": "eleve-logs-*",
                 "timeFieldName": "@timestamp"
             }
         }' 2>/dev/null && print_status "Kibana index pattern created" || print_warning "Could not create Kibana index pattern automatically"
@@ -828,7 +828,7 @@ create_monitoring_script() {
     cat > monitoring.sh << 'EOF'
 #!/bin/bash
 
-echo "=== Moringa Application Monitoring ==="
+echo "=== Eleve Application Monitoring ==="
 echo ""
 echo "🚀 Application URLs:"
 echo "Frontend: http://3.85.36.223:5173"
@@ -904,7 +904,7 @@ create_cleanup_script() {
     cat > cleanup.sh << 'EOF'
 #!/bin/bash
 
-echo "🧹 Cleaning up Moringa deployment..."
+echo "🧹 Cleaning up Eleve deployment..."
 
 # Stop and remove containers
 docker-compose down --remove-orphans
@@ -931,6 +931,7 @@ EOF
 # Main deployment function
 main() {
     print_header "MORINGA APPLICATION DEPLOYMENT WITH MONITORING"
+    print_header "ELEVE APPLICATION DEPLOYMENT WITH MONITORING"
     print_status "Starting deployment process..."
     
     # Update system
